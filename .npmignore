@@ -1,0 +1,13 @@
+
+# [1] : Ignore  node_modules folder.
+# [2] : Ignore Webpack config files.
+# [3] : Ignore all log files.
+# [4] : Ignore all test related files.
+# [5] : Ignore all dot files.
+
+node_modules/             # [1]
+webpack.config.js         # [2]
+webpack.config.babel.js   # [2]
+*.log                     # [3]
+test/                     # [4]
+.*                        # [5]

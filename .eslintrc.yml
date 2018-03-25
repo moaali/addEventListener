@@ -1,0 +1,16 @@
+extends: [
+  "airbnb-base",
+  "prettier"
+]
+
+plugins: [
+  "import"
+]
+
+env:
+  browser: true
+  es6: true
+  node: true
+
+rules:
+  no-multi-assign: 0
